@@ -1,0 +1,245 @@
+[
+  {
+    "id": "Q1",
+    "topic": "Git & Version Control",
+    "question": "What does 'git commit' do?",
+    "options": [
+      "Uploads your files to GitHub",
+      "Saves a snapshot of your changes in the local repository",
+      "Deletes your previous commits",
+      "Creates a new GitHub repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "A commit records a snapshot of staged changes locally. Pushing is a separate step that uploads commits to GitHub."
+  },
+  {
+    "id": "Q2",
+    "topic": "Git & Version Control",
+    "question": "What is the main purpose of a Git branch?",
+    "options": [
+      "To store secrets like passwords",
+      "To work on changes without affecting the main branch",
+      "To automatically deploy your website",
+      "To compress your project files"
+    ],
+    "answerIndex": 1,
+    "explanation": "Branches let you develop features safely and merge them into main later."
+  },
+  {
+    "id": "Q3",
+    "topic": "CI/CD",
+    "question": "What is Continuous Integration (CI)?",
+    "options": [
+      "Manually copying files to a server",
+      "Frequently merging code changes and running automated checks",
+      "A type of database backup",
+      "A cloud provider"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI focuses on frequent integration with automated builds/tests so problems are found early."
+  },
+  {
+    "id": "Q4",
+    "topic": "CI/CD",
+    "question": "What is Continuous Delivery/Deployment (CD) mainly about?",
+    "options": [
+      "Keeping code changes ready to release automatically or with minimal manual steps",
+      "Writing code without tests",
+      "Avoiding version control",
+      "Only deploying once a year"
+    ],
+    "answerIndex": 0,
+    "explanation": "CD automates the release pipeline so changes can be delivered quickly and reliably."
+  },
+  {
+    "id": "Q5",
+    "topic": "Containers",
+    "question": "What is a container (e.g., Docker container)?",
+    "options": [
+      "A physical server in a data center",
+      "A lightweight package that includes an app and its dependencies",
+      "A type of programming language",
+      "A Git branch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Containers bundle an application with everything it needs so it runs consistently across environments."
+  },
+  {
+    "id": "Q6",
+    "topic": "Containers",
+    "question": "Why are containers useful in deployment?",
+    "options": [
+      "They make apps run only on one computer",
+      "They reduce consistency by changing dependencies",
+      "They help apps run the same way in different environments",
+      "They replace the need for networking"
+    ],
+    "answerIndex": 2,
+    "explanation": "Containers help ensure the same dependencies and configuration are used everywhere."
+  },
+  {
+    "id": "Q7",
+    "topic": "Monitoring & Reliability",
+    "question": "What is monitoring used for in DevOps?",
+    "options": [
+      "To hide errors from users",
+      "To detect issues by tracking metrics, logs, and system health",
+      "To compile JavaScript code",
+      "To create Git repositories"
+    ],
+    "answerIndex": 1,
+    "explanation": "Monitoring helps teams notice problems early using metrics, logs, and alerts."
+  },
+  {
+    "id": "Q8",
+    "topic": "Monitoring & Reliability",
+    "question": "What is an alert in monitoring?",
+    "options": [
+      "A code comment",
+      "A notification triggered when a metric crosses a defined threshold",
+      "A Git merge",
+      "A password reset email"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alerts notify the team when something abnormal happens (e.g., high CPU, errors, downtime)."
+  }
+
+,
+  {
+    "id": "Q9",
+    "topic": "Git & Version Control",
+    "question": "Which command downloads the latest commits from a remote branch and updates your current branch?",
+    "options": ["git push", "git pull", "git commit", "git status"],
+    "answerIndex": 1,
+    "explanation": "git pull fetches changes from the remote and merges them into your current branch."
+  },
+  {
+    "id": "Q10",
+    "topic": "Git & Version Control",
+    "question": "What does 'git status' show?",
+    "options": [
+      "Your CPU usage",
+      "Which files are staged, modified, or untracked",
+      "The contents of your README",
+      "A list of GitHub repositories"
+    ],
+    "answerIndex": 1,
+    "explanation": "git status shows what changed and what will be committed."
+  },
+  {
+    "id": "Q11",
+    "topic": "CI/CD",
+    "question": "What is a common CI pipeline step?",
+    "options": ["Run automated tests", "Change your monitor brightness", "Rename your computer", "Delete source code"],
+    "answerIndex": 0,
+    "explanation": "CI commonly runs automated tests to catch issues early."
+  },
+  {
+    "id": "Q12",
+    "topic": "CI/CD",
+    "question": "Why do teams use automated tests in CI?",
+    "options": [
+      "To avoid catching bugs",
+      "To find issues quickly before release",
+      "To remove the need for any code review",
+      "To make deployments slower"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated tests help detect problems early and improve reliability."
+  },
+  {
+    "id": "Q13",
+    "topic": "Containers",
+    "question": "Which file commonly defines how to build a Docker image?",
+    "options": ["Dockerfile", "package.json", "README.md", "index.html"],
+    "answerIndex": 0,
+    "explanation": "A Dockerfile contains instructions to build a Docker image."
+  },
+  {
+    "id": "Q14",
+    "topic": "Containers",
+    "question": "What is the difference between an image and a container?",
+    "options": [
+      "They are the same thing",
+      "An image is a template; a container is a running instance of that template",
+      "A container is only used for databases",
+      "An image is only used for Git"
+    ],
+    "answerIndex": 1,
+    "explanation": "Images are built artifacts; containers run from images."
+  },
+  {
+    "id": "Q15",
+    "topic": "Monitoring & Reliability",
+    "question": "Which is an example of a metric?",
+    "options": ["CPU usage percentage", "A paragraph in README.md", "A Git branch name", "A folder name"],
+    "answerIndex": 0,
+    "explanation": "Metrics are numeric measurements like CPU, memory, latency, or error rate."
+  },
+  {
+    "id": "Q16",
+    "topic": "Monitoring & Reliability",
+    "question": "Why are logs helpful?",
+    "options": [
+      "They make the app smaller",
+      "They help debug by recording events and errors",
+      "They replace the need for testing",
+      "They automatically fix bugs"
+    ],
+    "answerIndex": 1,
+    "explanation": "Logs provide details about what happened in the system, which helps troubleshooting."
+  },
+  {
+    "id": "Q17",
+    "topic": "Infrastructure as Code (IaC)",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Manually configuring servers without documentation",
+      "Managing infrastructure using code/config files that can be version controlled",
+      "Writing HTML for a website",
+      "A type of container"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC manages infrastructure (servers, networks, etc.) using version-controlled code."
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code (IaC)",
+    "question": "Why is IaC useful?",
+    "options": [
+      "It increases random changes",
+      "It makes infrastructure repeatable and easier to track",
+      "It prevents collaboration",
+      "It replaces Git completely"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC improves consistency, repeatability, and allows change tracking with version control."
+  },
+  {
+    "id": "Q19",
+    "topic": "Security & DevOps",
+    "question": "What is a good security practice for secrets (API keys/passwords) in a repo?",
+    "options": [
+      "Commit them into questions.json",
+      "Put them in README.md",
+      "Store them in environment variables or a secret manager",
+      "Post them in comments for teammates"
+    ],
+    "answerIndex": 2,
+    "explanation": "Secrets should not be committed to code; use environment variables or secret management tools."
+  },
+  {
+    "id": "Q20",
+    "topic": "Security & DevOps",
+    "question": "What does the principle of least privilege mean?",
+    "options": [
+      "Everyone gets admin access",
+      "Users/services get only the permissions they need",
+      "Disable all authentication",
+      "Share one password for all accounts"
+    ],
+    "answerIndex": 1,
+    "explanation": "Least privilege reduces risk by limiting access to only what is necessary."
+  }
+
+]
